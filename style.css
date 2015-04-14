@@ -1,0 +1,170 @@
+body{ background:url(images/body-bg.jpg);}
+.bannerOut{ height: 481px; background: url(images/aeraBg_02.jpg) no-repeat center top;}
+.banner{ width: 1000px;  height: 481px;margin: 0 auto;  background:url(images/aeraBg_02.png) no-repeat center top;}
+.area1-Out{ height: 297px; background: url(images/aeraBg_03.jpg) no-repeat center top;}
+.area1{ width: 1000px;  height: 297px; background: url(images/aeraBg_03.jpg) no-repeat; margin: 0 auto; }
+body .tab{text-align: left }
+/*area1滚动代码*/
+#slide01 {position:relative; width:1000px;  text-align: left;  padding:5px; float: left; overflow: hidden;}
+#slide01 .pics {height:258px; text-align:left;}
+#slide01 .pics img {height:258px}
+#slide01 .pics li {display:none; width:474px; text-align:center; border: 0;}
+#slide01 ul {list-style:none}
+#slide01 ul img {vertical-align:middle}
+#slide01_control .slide {position:absolute;  left:438px; width:570px; top: 182px;  z-index: 100;}
+#slide01_control .tocs {padding:0; margin:0;}
+#slide01_control li {width:125px; float: left; margin-right: 4px;border:4px solid #b2b2b2; cursor: pointer;}
+#slide01_control li.current {border:4px solid #006abb;}
+#slide01 .pics i{ padding:15px 15px 0;font:14px/24px "宋体"; color:#fff; width: 469px; height: 154px; background: url(images/sprite_01.jpg) no-repeat -4px -4px; position: absolute;left: 478px; top: 0;text-align:left; }
+body .element style{ width:555px;}
+body #slide01 .tocs{ width:560px!important;}
+#slide01 .pics i a{ color: #ffd200; text-decoration: none;}
+#slide01 .pics i a:hover{ color: #ffd200; text-decoration: underline;}
+
+.area2-Out{ height: 1083px; background:url(images/aeraBg_04.jpg) no-repeat center top;}
+.area2 {width: 1000px; height:1083px;background:url(images/aeraBg_04.jpg) no-repeat center top; margin: 0 auto;}
+.area2 .slide {position:absolute; top:1px; left:5px; width:450px; text-align:center; z-index:100;overflow:hidden;}
+.area2 .btnL{position:absolute;left:0px;top:99px;width:36px; height:57px;background: url(images/coinL.png) no-repeat -5px -3px;  z-index: 105;}
+.area2 .btnL:hover{background: url(images/sprite_01.jpg) no-repeat -8px -186px; cursor:pointer;}
+.area2 .btnR {position:absolute;top:99px; right:0; width:36px; height:57px;background: url(images/sprite_01.jpg) no-repeat -50px -247px; z-index: 105;}
+.area2 .btnR:hover{background: url(images/sprite_01.jpg) no-repeat -48px -186px; cursor:pointer;}
+.area2 .txt{ height: 115px; width: 460px; margin:270px 0 0 4px;}
+.area2 .txt a{ color:#006abb; text-decoration:none;}
+.area2 .txt a:hover{ color:#006abb; text-decoration:underline;}
+#slide02 {position:relative; height:389px; width:460px;float:left;overflow:hidden; margin:60px 0 0 19px; z-index: 100; float: left; text-align:left; display:inline;}
+#slide02 .pics{height:258px;overflow:hidden;}  
+#slide02 .pics li {width:450px;text-align:center; border:0; position: absolute;left: 0;}
+#slide02 ul {list-style:none}
+#slide02 ul img {vertical-align:middle;display: block;}
+
+#slide02 dt{ margin-right:10px; float:left; cursor:pointer;}
+#slide02 dd{ float:left; width:320px; padding:10px 5px 0 0;}
+#slide02 dd span{height: 24px; font: 16px/24px "宋体"; display: block;}
+#slide02 dd p{ font: 12px/24px "宋体"; color: #000;}
+/*黄海豪华版*/
+#slide03 {position:relative; height:389px; width:460px;float:left;overflow:hidden; margin:60px 0 0 42px; z-index: 100; float: left; text-align: left}
+#slide03 .pics{height:258px;overflow:hidden;}  
+#slide03 .pics li {width:450px;text-align:center; border:0; position: absolute;left: 0;}
+#slide03 ul {list-style:none}
+#slide03 ul img {vertical-align:middle;display: block;}
+#slide03 dt{ margin-right:10px; float:left; cursor:pointer;}
+#slide03 dd{ float:left; width:320px; padding:10px 5px 0 0;}
+#slide03 dd span{height: 24px; font: 16px/24px "宋体"; display: block;}
+#slide03 dd p{ font: 12px/24px "宋体"; color: #000;}
+/*红海至尊版*/
+#slide04 {position:relative; height:389px; width:460px;float:left;overflow:hidden; margin:90px 0 0 20px; z-index: 100; float: left; text-align: left; display:inline;}
+#slide04 .pics{height:258px;overflow:hidden;}  
+#slide04 .pics li {width:450px;text-align:center; border:0; position: absolute;left: 0;}
+#slide04 ul {list-style:none}
+#slide04 ul img {vertical-align:middle;display: block;}
+#slide04 dt{ margin-right:10px; float:left; cursor:pointer;}
+#slide04 dd{ float:left; width:320px; padding:10px 5px 0 0;}
+#slide04 dd span{height: 24px; font: 16px/24px "宋体"; display: block;}
+#slide04 dd p{ font: 12px/24px "宋体"; color: #000;}
+/*红海MiNI*/
+#slide07 {position:relative; height:389px; width:460px;float:left;overflow:hidden; margin:90px 0 0 40px; z-index: 100; float: left;text-align:left;}
+#slide07 .pics{height:258px;overflow:hidden;}  
+#slide07 .pics li {width:450px;text-align:center; border:0; position: absolute;left: 0;}
+
+#slide07 ul {list-style:none}
+#slide07 ul img {vertical-align:middle;display: block;}
+#slide07 dt{ margin-right:10px; float:left; cursor:pointer;}
+#slide07 dd{ float:left; width:320px; padding:10px 5px 0 0;}
+#slide07 dd span{height: 24px; font: 16px/24px "宋体"; display: block;}
+#slide07 dd p{ font: 12px/24px "宋体"; color: #000;}
+
+
+/*arar3超频三发展*/
+.area3-Out{ height: 398px; background:url(images/aeraBg_05.jpg) no-repeat center top; }
+.area3{ height: 398px; width: 1000px; background:url(images/aeraBg_05.jpg) no-repeat center top;  margin: 0 auto; position:relative;}
+#slide05 .pics{height:245px; overflow:hidden;text-align:left;}
+#slide05 .pics img {height:207px; border:3px solid #0069c2; position:absolute; left:584px; top:15px;}
+#slide05 p{ height:120px; width:270px; font:14px/24px "宋体"; position:absolute; left:290px; top:95px; color:#000;}
+#slide05 p a{ color:#0069c2; text-decoration:none;}
+#slide05 p a{ color:#0069c2; text-decoration:none;}
+#slide05 p a:hover{ color:#0069c2; text-decoration:underline;}
+#slide05 ul {list-style:none}
+#slide05 ul img {vertical-align:middle}
+#slide05_control .slide { width:1000px; height:130px; position:relative;}
+#slide05 .tocs{ height:130px;;}
+#slide05_control a{width:125px; height:110px; display:block;}
+#slide05_control li{ float: left;}
+#slide05_control li.current{}
+
+#slide05 .pics i{ padding:15px 10px 0;font:36px/24px "宋体"; color: #0069c2;  position: absolute;left: 100px; top: 110px;}
+#slide05 .pics i a{ color: #ffd200; text-decoration: none;}
+#slide05 .pics i a:hover{ color: #ffd200; text-decoration: underline;}
+#slide05 .pics li{display: none;}
+#slide05 .li01,#slide05 .li{position:absolute; left:10px; top:0px;}
+#slide05 .li01:hover,#slide05_control .current .li01{ background:url(images/sprite_02.png) no-repeat -19px -29px; }
+#slide05 .li02{position:absolute; left:103px; top:19px;}
+#slide05 .li02:hover ,#slide05_control .current .li02{background:url(images/sprite_02.png) no-repeat -15px -165px;}
+#slide05 .li03{position:absolute; left:200px; top:-24px;}
+#slide05 .li03:hover ,#slide05_control .current .li03{ background:url(images/sprite_02.png) no-repeat -18px -305px;}
+#slide05 .li04{position:absolute; left:290px; top:19px;}
+#slide05 .li04:hover ,#slide05_control .current .li04{  background:url(images/sprite_02.png) no-repeat -16px -463px;}
+#slide05 .li05{position:absolute; left:387px; top:-24px;}
+#slide05 .li05:hover ,#slide05_control .current .li05{ background:url(images/sprite_02.png) no-repeat -15px -591px;}
+#slide05 .li06{position:absolute; left:482px; top:19px;}
+#slide05 .li06:hover ,#slide05_control .current .li06{background:url(images/sprite_02.png) no-repeat -16px -729px;}
+#slide05 .li07{position:absolute; left:581px; top:-24px;}
+#slide05 .li07:hover,#slide05_control .current .li07{background:url(images/sprite_02.png) no-repeat -12px -885px;}
+#slide05 .li08{position:absolute; left:674px; top:19px;}
+#slide05 .li08:hover,#slide05_control .current .li08{background:url(images/sprite_02.png) no-repeat -15px -1040px;}
+#slide05 .li09{position:absolute; left:771px; top:-24px;}
+#slide05 .li09:hover,#slide05_control .current .li09{background:url(images/sprite_02.png) no-repeat -15px -1222px;}
+#slide05 .li10{position:absolute; left:870px; top:19px;}
+#slide05 .li10:hover,#slide05_control .current .li10{background:url(images/sprite_02.png) no-repeat -21px -1382px;}
+
+/*超频三发展下的滚动*/
+.aera4-Out{height:307px; background:url(images/aeraBg_06.jpg) center top no-repeat;}
+.area4{height:307px; width:1000px;background:url(images/aeraBg_06.jpg) center top no-repeat; margin:0 auto;}
+#slide06 {position:relative; height:168px;width:990px; text-align:left; overflow:hidden;margin:0 auto;}
+#slide06 .pics {padding:0; height:140px;position: absolute;left: 0px;width: 99999px; }
+#slide06 .pics li {width:190px;margin-right:10px;float: left; display: inline-block;}
+#slide06 ul {list-style:none}
+#slide06 ul img {vertical-align:middle}
+#slide06 .pics a{ color:#000; text-decoration:none;}
+#slide06 .pics a:hover{ color:#000; text-decoration:underline;}
+#slide06 .pics i{ height:20px; width:190px; text-align:center; display:block; margin-top:10px;}
+
+/*超频三产品线*/
+.area5-Out{height:400px; background:url(images/aeraBg_07.jpg) center top no-repeat;}
+.area5{ height:400px; width: 1000px; background:url(images/aeraBg_07.jpg) center top no-repeat; margin: 0 auto;}
+#slide08 {position:relative; width:990px; height:170px;  margin:0 auto; text-align:left; overflow: hidden;}
+#slide08 .sli .pics{position: absolute;left: 0;}
+#slide08 .sli{overflow:hidden; background:none;}
+#slide08 .sli img {vertical-align:middle}      
+#slide08_control {width:990px; height:85px; list-style:none; padding-left:10px; overflow:hidden;}
+#slide08_control li{float:left;display:inline; }
+#slide08_control a{width:225px;height:85px; margin-right:25px; line-height:30px; display:block; }       
+#slide08_control li.current .pc01,#slide08_control .pc01:hover{background:url(images/sprite_01.jpg) no-repeat -25px -459px;}
+#slide08_control li.current .pc02,#slide08_control .pc02:hover{background:url(images/sprite_01.jpg) no-repeat -28px -552px;}
+#slide08_control li.current .pc03,#slide08_control .pc03:hover{background:url(images/sprite_01.jpg) no-repeat -28px -644px;}
+#slide08_control li.current .pc04,#slide08_control .pc04:hover{background:url(images/sprite_01.jpg) no-repeat -29px -741px;}
+
+.slide11 {position:relative; height:170px; text-align:left; overflow:hidden; margin-top:25px; }
+.slide11 .pics {padding:0; height:140px; width: 9999px;}
+.slide11 .pics li {width:190px;margin-right:10px; float:left;}
+.slide11 .slide {width:990px; height:168px; margin:0 auto;}
+.slide11 ul{list-style:none}
+.slide11 ul img {vertical-align:middle}
+.slide11 .pics a{ color:#000; text-decoration:none;}
+.slide11 .pics a:hover{ color:#000; text-decoration:underline;}
+.slide11 .pics i{ height:20px; width:190px; text-align:center; display:block; margin-top:10px;}
+
+/*area6*/
+.area6-Out{height:203px; background:url(images/aeraBg_08.jpg) center top no-repeat;}
+.area6{height:203px; width:1000px; background:url(images/aeraBg_08.jpg) center top no-repeat; margin:0 auto;}
+.area6-R{ height:203px; width:350px; float:left;}
+.area6-R .jingdong a{ height:72px; width:350px; background:url(images/sprite_01.jpg) no-repeat -528px -9px; display:block; margin-bottom:30px;}
+.area6-R .tianmao a{ height:72px; width:350px; background:url(images/sprite_01.jpg) no-repeat -532px -108px; display:block; overflow:hidden;}
+.area6-L{ width:558px; height:151px; background:url(images/text-bg.jpg) no-repeat -21px -19px; float:right; padding:25px 0 0 30px;}
+.area6-L li{ width:230px; height:30px; font:12px/30px "宋体"; background:url(images/dot.png) no-repeat 0  center; float:left; text-align:left; padding-left:15px; margin-right:55px; display:inline;}
+.area6-L .text-r{margin-right:0;}
+.area6-L a{ color:#000; text-decoration:none;}
+.area6-L a:hover{ color:#0069c2; text-decoration:none;}
+
+.footer-Out{ height:123px;}
+body .g-footer,body .g-footer a,body .g-footer .gft-copyRight, body .g-footer .gft-copyRight a{ color:#000;}
+
